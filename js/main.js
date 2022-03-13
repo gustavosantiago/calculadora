@@ -1,5 +1,5 @@
 function calculateSoma() {
-  const soma = 2 + 2
+  const soma = 2 + 2;
   document.getElementById("resultadoSoma").innerHTML = "A soma é " + soma;
 }
 
@@ -11,4 +11,9 @@ function calculateSub() {
 function calculateDiv() {
   const dividir = 2 / 2
   document.getElementById("resultadoDiv").innerHTML = "A divisão é " + dividir;
+}
+
+function calculateMultiplica() {
+  const multiplica = 4 * 4;
+  document.getElementById("resultadoMultiplica").innerHTML = "A multiplicação é " + multiplica;
 }
