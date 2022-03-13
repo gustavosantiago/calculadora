@@ -5,5 +5,10 @@ function calculateSoma() {
 
 function calculateSub() {
   const subtrair = 2 - 2
-  document.getElementById("resultadoSub").innerHTML = "A subtração é" + subtrair;
+  document.getElementById("resultadoSub").innerHTML = "A subtração é " + subtrair;
+}
+
+function calculateDiv() {
+  const dividir = 2 / 2
+  document.getElementById("resultadoDiv").innerHTML = "A divisão é " + dividir;
 }
